@@ -1,0 +1,53 @@
+[!] Flutter (Channel [user-branch], 3.47.8, on macOS 27.2 26B123 darwin-arm64, locale en-PH) [500ms]
+    ! Flutter version 3.47.8 on channel [user-branch] at /Users/alanc/flutter_issue_195456/flutter-stable
+      Currently on an unknown channel. Run `flutter channel` to switch to an official channel.
+      If that doesn't fix the issue, try deleting the 'bin/cache/flutter.version.json' file in your Flutter SDK directory and then reinstall Flutter by following instructions at https://flutter.dev/setup.
+    ! Warning: `flutter` on your path resolves to /Users/alanc/development/flutter/bin/flutter, which is not inside your current Flutter SDK checkout at /Users/alanc/flutter_issue_195456/flutter-stable. Consider adding /Users/alanc/flutter_issue_195456/flutter-stable/bin to the front of your path.
+    ! Warning: `dart` on your path resolves to /Users/alanc/development/flutter/bin/dart, which is not inside your current Flutter SDK checkout at /Users/alanc/flutter_issue_195456/flutter-stable. Consider adding /Users/alanc/flutter_issue_195456/flutter-stable/bin to the front of your path.
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 737ba8f885 (6 days ago), 2026-10-22 21:37:31 -0700
+    • Engine revision cf636b1dfb
+    • Dart version 3.13.7
+    • DevTools version 2.60.0
+    • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets, enable-record-use, no-enable-swift-package-manager, omit-legacy-version-file, enable-lldb-debugging, enable-uiscene-migration, enable-riscv64
+    • If those were intentional, you can disregard the above warnings; however it is recommended to use "git" directly to perform update checks and upgrades.
+
+[!] Android toolchain - develop for Android devices (Android SDK version 36.0.0) [2.3s]
+    • Android SDK at /Users/alanc/Library/Android/sdk
+    • Emulator version 36.5.11.0 (build_id 15261927) (CL:N/A)
+    • Platform android-37, build-tools 36.0.0
+    ! Multiple adb binaries found. This can cause conflicts and device detection issues:
+        - /Users/alanc/Library/Android/sdk/platform-tools/adb
+        - /opt/homebrew/Caskroom/android-platform-tools/37.0.0/platform-tools/adb
+        - /Users/alanc/.android-sdk-macosx/platform-tools/adb
+    • Java binary at: /Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home/bin/java
+      This JDK is specified in your Flutter configuration.
+      To change the current JDK, run: `flutter config --jdk-dir="path/to/jdk"`.
+    • Java version OpenJDK Runtime Environment Zulu17.66+19-CA (build 17.0.19+10-LTS)
+    ! Some Android licenses not accepted. To resolve this, run: flutter doctor --android-licenses
+
+[✓] Xcode - develop for iOS and macOS (Xcode 27.2) [1,328ms]
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Build 27B48
+    • CocoaPods version 1.16.2
+
+[✓] Chrome - develop for the web [7ms]
+    • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[✓] Connected device (10 available) [6.8s]
+    • SCG30 (mobile)                        • R5CXB2WYKMV                          • android-arm64  • Android 16 (API 36)
+    • CodeFab HDC (wireless) (mobile)       • 00008150-0010352902E2401C            • ios            • iOS 27.2 24B5089g
+    • CodeFab HDC iPad (wireless) (mobile)  • 00008103-000A09A826BB001E            • ios            • iOS 27.2 24B115
+    • CodeFab AJC (wireless) (mobile)       • 00008150-000E6C490E82401C            • ios            • iOS 27.2 24B115
+    • iPhone Duo (mobile)                   • 53B4E882-DB41-4619-87E4-0DBAB1D7092B • ios            • com.apple.CoreSimulator.SimRuntime.iOS-27-2-iPhone19-4 (simulator)
+    • iPhone 18 Pro Max (mobile)            • 3A9AEBF9-DF1D-4D07-A351-4DBF553C7C26 • ios            • com.apple.CoreSimulator.SimRuntime.iOS-27-2 (simulator)
+    • iPad Pro 11-inch (M5) (16GB) (mobile) • F9746B4D-ABA0-4D7D-9735-53625C4CA29F • ios            • com.apple.CoreSimulator.SimRuntime.iOS-27-2 (simulator)
+    • iPad Pro 11-inch (M5) (mobile)        • 26AAC249-6681-4C4C-93F1-5A49B685FDCF • ios            • com.apple.CoreSimulator.SimRuntime.iOS-27-2 (simulator)
+    • macOS (desktop)                       • macos                                • darwin-arm64   • macOS 27.2 26B123 darwin-arm64
+    • Chrome (web)                          • chrome                               • web-javascript • Google Chrome 156.0.8078.48
+    ! Error: Browsing on the local area network for Alan’s Apple Watch. Ensure the device is unlocked and discoverable via Bluetooth. (code -27)
+
+[✓] Network resources [951ms]
+    • All expected network resources are available.
+
+! Doctor found issues in 2 categories.

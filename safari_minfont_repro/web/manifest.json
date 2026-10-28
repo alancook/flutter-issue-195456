@@ -1,0 +1,12 @@
+{
+    "name": "safari_minfont_repro",
+    "short_name": "minfont_repro",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Minimal repro for flutter/flutter#195456",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": []
+}
